@@ -3,7 +3,7 @@
   "version": "2.3.4",
   "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "node --inspect=0.0.0.0:2992 server.js"
   },
   "dependencies": {
     "@kubernetes/client-node": "0.7.1",
